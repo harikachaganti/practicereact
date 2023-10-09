@@ -7,28 +7,100 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+    
+
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+  <ul>
+    <div>
+      <li>
+        <a href="#home">
+          <b>Home</b>
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+      </li>
+      <li>
+        <a href="#carrers">
+          <b>Careers</b>
         </a>
+      </li>
+      <div className="right">
+        <li>
+          <a href="#about">
+            <b>About</b>
+          </a>
+        </li>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
+  </ul>
+  <form>
+    <datalist id="Gender">
+      <option value="Female" />
+      <option value="Male" />
+    </datalist>
+    <table align="center" cellPadding="25px">
+      <tbody>
+        <tr>
+          <td />
+          <td align="center">
+            <img src="x.jpg" width="150px" height="150px" />
+          </td>
+          <td />
+        </tr>
+        <tr>
+          <td>
+            <label className="mylabel">Email</label>
+            <br />
+            <input className="mytextbox" type="text" placeholder="INPUT" />
+          </td>
+          <td />
+          <td>
+            <label className="mylabel">User Name</label>
+            <br />
+            <input type="text" className="mytextbox" placeholder="INPUT" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label className="mylabel">Gender</label>
+            <br />
+            <input
+              type="text"
+              className="mytextbox"
+              list="Gender"
+              name="Gender"
+              id="Gender"
+              placeholder="Select from dropdown"
+            />
+          </td>
+          <td />
+          <td>
+            <label className="mylabel">Password</label>
+            <br />
+            <input
+              type="text"
+              className="mytextbox"
+              placeholder="Password Input"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colSpan={3} align="center">
+            <button className="button" type="submit" formAction="Figma2.Html">
+              SUBMIT
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  <footer>
+  <p text align="center">xyenta solutions @ 2022</p>
+  </footer>
+
+</>
+
+
+
+
   )
 }
 

@@ -40,3 +40,80 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e4ccff;
+  border-radius: 10px;
+  border: none;
+}
+ li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(12, 14, 14);
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.left {
+float: left;
+width: 300px;
+}
+.right {
+float: right;
+width: 300px;
+}
+
+::placeholder {
+color: black;
+opacity: 1; /* Firefox */
+font-weight:500;
+}
+.mylabel {
+font-size:25px; 
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.mytextbox {
+background-color: #b3b3b3; 
+font-size:15px; 
+height:50px; 
+width:250px; 
+text-align:center;
+border-radius: 10px;
+border: none;
+}
+
+.button {
+background-color:#0d99ff;
+border: none;
+color: white;
+padding: 20px 400px;
+text-align: center ;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+margin: 10px 2px;
+cursor: pointer;
+border-radius: 10px;
+border: none;
+}
+footer {
+text-align: center;
+padding: 3px;
+background-color: #aff4c6;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+border-radius: 10px;
+border: none;
+} 
